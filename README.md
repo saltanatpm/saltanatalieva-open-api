@@ -1,2 +1,2 @@
 # saltanatalieva-open-api
-Open API project Saltanat Alieva Mars
+[My Open API Project](https://github.com/saltanatpm/saltanatpm-open-api)
