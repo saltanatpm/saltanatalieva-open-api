@@ -1,29 +1,58 @@
-body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: #36dfdc;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg,#1a1a2e,#16213e);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+h1{
     text-align: center;
-  }
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 10px #ffd966, 0 0 20px #b8860b;
+    letter-spacing: 2px;
+}
 
-  h1 {
-    margin-bottom: 20px;
-    color: #222;
-  }
-  .search-bar {
-    margin-bottom: 30px;
-  }
+.buttons button{
+    padding:10px 20px;
+    margin:10px;
+    border: 2px solid #b89b5b;
+    border-radius:40px;
+    background: #2a2f44;
+    color: #ffddaa;
+    cursor:pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    letter-spacing: 1px;                 
+}
 
-  input[type="text"] {
-    padding: 10px 15px;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-  }
+#content{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
 
+.card{
+    background:#0f3460;
+    padding:15px;
+    border-radius:10px;
+    width:300px;
+}
 
+.card img{
+    width:100%;
+    border-radius:8px;
+}
 
-
-  
+.spell{
+    background:#533483;
+    padding:10px;
+    border-radius:8px;
+    width:200px;
+}

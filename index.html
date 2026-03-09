@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Saltanat Alieva's Open API Project</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Open API projects">
-        <meta name="author" content="Saltanat Alieva">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/index.css">
+<html lang="en">
+<head>
+    <title>Saltanat Alieva's Open API Project</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Open API projects">
+    <meta name="author" content="Saltanat Alieva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>⚡ HARRY POTTER WORLD API ⚡</h1>
+    <div class="buttons">
+        <button onclick="loadCharacters()">🧙 Characters</button>
+        <button onclick="loadSpells()">⚡ Spells</button>
+        <button onclick="startQuiz()">🏰 House Test</button>
+    </div>
 
-    </head>
-    <body>
-        <h1>Art Gallery (ARTIC API)</h1>
-        <div class="search-bar">
-            <input type="text" id="artistInput" placeholder="Enter artist name">
-            <button id="searchBtn">Search</button>
+    <div id="content"></div>
+        <div class="footer-note">
+            Data from <a href="https://github.com/fedeperin/potterapi" target="_blank">PotterAPI (fedeperin)</a>
         </div>
-        
-        <div id="results"></div>
-        <footer> Data from <a href="https://api.artic.edu/" target="_blank">Art Institute of Chicago API</a></footer>
-        <script src="js/index.js"></script>
-    </body>
+    <script src="js/index.js"></script>
+</body>
 </html>
